@@ -1,7 +1,9 @@
 h1, h2 {
     text-align: center;
 }
-
+h2.question > p {
+    font-weight: bold;
+}
 button.btn {
     display: block;
     margin: 0 auto;
