@@ -17,11 +17,9 @@
         <div class="container">
             <center>
                 <div class="btn-group" data-toggle="buttons">
-                    <li ng-repeat="option in options">
-                        <label class="btn btn-primary">
-                            <input type="radio" name="answer" value="{{option}}"> {{option}}
-                        </label>
-                    </li>
+                    <label class="btn btn-primary" ng-repeat="option in options">
+                        <input type="radio" name="answer" value="{{option}}"> {{option}}
+                    </label>
                 </div>
             </center>
         </div>
